@@ -26,6 +26,7 @@ To get started with eWalletHub, follow these steps:
 
    ```bash
    git clone https://github.com/yourusername/eWalletHub.git
+
 Navigate into the project directory:
 bash
 cd eWalletHub
