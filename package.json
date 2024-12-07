@@ -1,0 +1,33 @@
+{
+  "name": "eWalletHub",
+  "version": "1.0.0",
+  "description": "A cryptocurrency wallet application",
+  "main": "index.js",
+  "scripts": {
+    "start": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "bootstrap": "^5.3.3",
+    "dotenv": "^10.0.0",
+    "ethers": "^6.13.4",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-scripts": "^5.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
